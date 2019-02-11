@@ -28,12 +28,12 @@ fun main(args: Array<String>) {
 }
 
 private fun hasCycle(head: ListNode): Boolean {
-    var lowPointer = head
-    var fastPoint = head.next?.next ?: return false
-    while (fastPoint.next != null && fastPoint.next!!.next != null) {
-        if (lowPointer == fastPoint) return true
+    var lowPointer: ListNode? = head
+    var fastPoint: ListNode? = head
+    while (fastPoint != null && lowPointer != null && fastPoint.next != null) {
         lowPointer = lowPointer.next!!
         fastPoint = fastPoint.next!!.next!!
+        if (lowPointer == fastPoint) return true
     }
     return false
 }
