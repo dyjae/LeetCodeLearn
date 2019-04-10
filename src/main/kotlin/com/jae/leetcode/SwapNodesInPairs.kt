@@ -1,25 +1,14 @@
 package com.jae.leetcode
 
 /**
- * @Description
+ * @Description 两两交换链表中的节点 https://leetcode.com/problems/swap-nodes-in-pairs/
  * @Author Jae
  * @Date 2019/2/3 14:52
  **/
 
 fun main(args: Array<String>) {
-    val listNode1 = ListNode(1)
-    val listNode2 = ListNode(2)
-    val listNode3 = ListNode(3)
-    val listNode4 = ListNode(4)
-    listNode1.next = listNode2
-    listNode2.next = listNode3
-    listNode3.next = listNode4
-    val swapPairs = swapPairs(listNode1)
-    var show = swapPairs
-    while (show != null) {
-        println(show.`val`)
-        show = show.next
-    }
+    val listNode = ListNode.createNumListNode(6)
+    swapPairs(listNode)?.print()
 }
 
 private fun swapPairs(head: ListNode?): ListNode? {

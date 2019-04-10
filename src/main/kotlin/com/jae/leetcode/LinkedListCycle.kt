@@ -1,7 +1,7 @@
 package com.jae.leetcode
 
 /**
- * @Description
+ * @Description 判断链表是否有环 https://leetcode.com/problems/linked-list-cycle
  * @Author Jae
  * @Date 2019/2/3 16:12
  **/
@@ -24,7 +24,7 @@ fun main(args: Array<String>) {
     listNode2.next = listNode3
     listNode3.next = listNode4
     listNode4.next = listNode2
-    println(hasCycle(listNode1))
+//    println(hasCycle(listNode1))
 }
 
 private fun hasCycle(head: ListNode): Boolean {

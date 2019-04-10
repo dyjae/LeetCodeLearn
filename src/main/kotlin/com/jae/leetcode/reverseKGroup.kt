@@ -1,7 +1,7 @@
 package com.jae.leetcode
 
 /**
- * @Description
+ * @Description  每 k 个节点一组翻转链表 https://leetcode.com/problems/reverse-nodes-in-k-group/
  * @Author Jae
  * @Date 2019/2/11 18:26
  **/
