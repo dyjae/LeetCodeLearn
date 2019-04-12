@@ -1,4 +1,4 @@
-package com.jae.leetcode
+package com.jae.leetcode.linkedlist
 
 /**
  * @Description  每 k 个节点一组翻转链表 https://leetcode.com/problems/reverse-nodes-in-k-group/

@@ -1,4 +1,4 @@
-package com.jae.leetcode
+package com.jae.leetcode.linkedlist
 
 /**
  * @Description 判断链表是否有环 https://leetcode.com/problems/linked-list-cycle

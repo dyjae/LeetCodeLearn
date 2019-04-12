@@ -1,4 +1,4 @@
-package com.jae.leetcode
+package com.jae.leetcode.linkedlist
 
 /**
  * @Description 两两交换链表中的节点 https://leetcode.com/problems/swap-nodes-in-pairs/

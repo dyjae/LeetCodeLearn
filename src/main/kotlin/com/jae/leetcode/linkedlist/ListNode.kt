@@ -1,4 +1,4 @@
-package com.jae.leetcode
+package com.jae.leetcode.linkedlist
 
 /**
  * @Description
@@ -30,7 +30,8 @@ class ListNode(var `val`: Int = 0) {
 //            println("num=$num,startNum=$startNum")
             val listNode = ListNode(startNum)
             if (num > 1) {
-                val nextListNode = createNumListNode(num - 1, startNum + 1)
+                val nextListNode =
+                    createNumListNode(num - 1, startNum + 1)
                 listNode.next = nextListNode
             }
             return listNode

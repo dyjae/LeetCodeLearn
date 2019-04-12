@@ -1,4 +1,4 @@
-package com.jae.leetcode
+package com.jae.leetcode.linkedlist
 
 /**
  * @Description 环形链表 https://leetcode.com/problems/linked-list-cycle-ii/

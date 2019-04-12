@@ -1,4 +1,4 @@
-package com.jae.leetcode
+package com.jae.leetcode.linkedlist
 
 /**
  * @Description 翻转一个单链表 https://leetcode.com/problems/reverse-linked-list/
