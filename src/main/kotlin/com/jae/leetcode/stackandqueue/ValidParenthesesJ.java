@@ -18,8 +18,8 @@ public class ValidParenthesesJ {
 
     private static boolean isValid(String s) {
         char[] chars = s.toCharArray();
-        Stack<Character> stack = new Stack<>();
-        Map<Character, Character> map = new HashMap<>();
+        Stack<Character> stack = new Stack<Character>();
+        Map<Character, Character> map = new HashMap<Character, Character>();
         map.put(')', '(');
         map.put(']', '[');
         map.put('}', '{');
