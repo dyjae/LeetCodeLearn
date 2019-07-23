@@ -44,3 +44,8 @@ dequeue:
 # 239. Sliding Window Maximum
 https://leetcode.com/problems/sliding-window-maximum/
 dequeue/SlidingWindowMaximum.kt
+
+map:
+# 242. Valid Anagram
+https://leetcode.com/problems/valid-anagram/
+/map/ValidAnagram.kt
