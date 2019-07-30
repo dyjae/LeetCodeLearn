@@ -49,3 +49,11 @@ map:
 # 242. Valid Anagram
 https://leetcode.com/problems/valid-anagram/
 /map/ValidAnagram.kt
+
+# 1. Two Sum
+https://leetcode.com/problems/two-sum/
+/map/TwoSum
+
+# 15. 3Sum
+https://leetcode.com/problems/3sum/
+/map/ThreeSum
