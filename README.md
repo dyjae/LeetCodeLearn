@@ -57,3 +57,7 @@ https://leetcode.com/problems/two-sum/
 # 15. 3Sum
 https://leetcode.com/problems/3sum/
 /map/ThreeSum
+
+# 98. Validate Binary Search Tree
+https://leetcode.com/problems/validate-binary-search-tree/
+/tree/ValidateBinarySearchTree
