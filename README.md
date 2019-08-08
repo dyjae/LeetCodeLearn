@@ -89,3 +89,8 @@ learn leetcode online judge
     https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/
     /tree/LowestCommonAncestorOfABinaryTree.kt
 ```
+# 235.lowest-common-ancestor-of-a-binary-search-tree
+```
+    https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
+    /tree/LowestCommonAncestorOfABinarySearchTree.kt
+```

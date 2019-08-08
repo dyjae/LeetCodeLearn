@@ -29,17 +29,17 @@ class LowestCommonAncestorOfABinaryTreeJ {
         root2.setLeft(root7);
         root2.setRight(root4);
 
-        TreeNode treeNode = lowestCommonAncestor(root3, root3.getLeft(), root3.getRight());
+        TreeNode treeNode = lowestCommonAncestor11(root3, root5, root4);
         System.out.println(treeNode.getValue());
 
     }
 
     //    Runtime: 6 ms, faster than 60.52% of Java online submissions for Lowest Common Ancestor of a Binary Tree.
     //    Memory Usage: 35.1 MB, less than 5.03% of Java online submissions for Lowest Common Ancestor of a Binary Tree.
-    private static TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
+    private static TreeNode lowestCommonAncestor11(TreeNode root, TreeNode p, TreeNode q) {
         if (root == null || root.getValue() == p.getValue() || root.getValue() == q.getValue()) return root;
-        TreeNode left = lowestCommonAncestor(root.getLeft(), p, q);
-        TreeNode right = lowestCommonAncestor(root.getRight(), p, q);
+        TreeNode left = lowestCommonAncestor11(root.getLeft(), p, q);
+        TreeNode right = lowestCommonAncestor11(root.getRight(), p, q);
         return left == null ? right : right == null ? left : root;
     }
 

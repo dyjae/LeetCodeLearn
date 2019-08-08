@@ -28,14 +28,14 @@ fun main(args: Array<String>) {
     root2.left = root7
     root2.right = root4
 
-    val treeNode = lowestCommonAncestor(root3, root5, root1)
+    val treeNode = lowestCommonAncestor12(root3, root5, root1)
     println(treeNode)
 }
 
-fun lowestCommonAncestor(root: TreeNode?, p: TreeNode, q: TreeNode): Int? {
+fun lowestCommonAncestor12(root: TreeNode?, p: TreeNode, q: TreeNode): Int? {
     if (root == null || root == p || root == q) return root?.value
-    val left = lowestCommonAncestor(root.left, p, q)
-    val right = lowestCommonAncestor(root.right, p, q)
+    val left = lowestCommonAncestor12(root.left, p, q)
+    val right = lowestCommonAncestor12(root.right, p, q)
     return if (left != null && right != null) {
         root.value
     } else if (left == null) {
