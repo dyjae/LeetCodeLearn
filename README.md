@@ -99,3 +99,10 @@ learn leetcode online judge
 ```
     /tree/OrderBinaryTree.kt
 ```
+
+# 递归 recursive
+# 50. Pow(x, n)
+```
+    https://leetcode.com/problems/powx-n/
+    /recursive/PowXN.kt
+```
