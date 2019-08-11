@@ -106,3 +106,9 @@ learn leetcode online judge
     https://leetcode.com/problems/powx-n/
     /recursive/PowXN.kt
 ```
+# 169. Majority Element
+```
+    https://leetcode.com/problems/majority-element/
+    /recursive/MajorityElement.kt
+```
+
