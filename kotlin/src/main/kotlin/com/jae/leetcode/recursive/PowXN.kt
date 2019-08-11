@@ -7,37 +7,98 @@ package com.jae.leetcode.recursive
  **/
 
 fun main(args: Array<String>) {
-    println(myPow(2.1, 3))
+    println(myPow(2.0, 2))
 }
 
-//Runtime: 160 ms, faster than 36.21% of Kotlin online submissions for Pow(x, n).
-//Memory Usage: 33.2 MB, less than 100.00% of Kotlin online submissions for Pow(x, n).
+//使用非递归的方式
+//Runtime: 172 ms, faster than 22.41% of Kotlin online submissions for Pow(x, n).
+//Memory Usage: 31.8 MB, less than 100.00% of Kotlin online submissions for Pow(x, n).
 fun myPow(x: Double, n: Int): Double {
     if (x == 1.0) return x
-    return when {
-        n == Int.MAX_VALUE ->
+    if (n == 0) return 1.0
+    return when (n) {
+        Int.MAX_VALUE ->
             when {
-                x > 0 -> 0.0
                 x < 0 -> -1.0
                 else -> 0.0
             }
-        n == Int.MIN_VALUE ->
+        Int.MIN_VALUE ->
             when {
-                x > 0 -> 0.0
                 x < 0 -> 1.0
                 else -> 0.0
             }
-        n > 0 -> pow(x, 1.0, n)
-        n < 0 -> 1 / pow(x, 1.0, Math.abs(n))
-        else -> 1.0
+        else -> {
+            var param = x
+            var loop = n
+            if (loop < 0) {
+                param = 1 / x
+                loop = -loop
+            }
+            var rs = 1.0
+            while (loop != 0) {
+                if (loop.and(1) > 0) {
+                    rs *= param
+                }
+                param *= param
+                loop = loop.shr(1)
+            }
+            return rs
+        }
     }
 }
 
-tailrec fun pow(x: Double, y: Double, n: Int): Double {
-    if (n == 0) return y
-    val z = y * x
-    return pow(x, z, n - 1)
-}
+//时间复杂度 O(logn)
+//Runtime: 140 ms, faster than 93.10% of Kotlin online submissions for Pow(x, n).
+//Memory Usage: 31.3 MB, less than 100.00% of Kotlin online submissions for Pow(x, n).
+//fun myPow(x: Double, n: Int): Double {
+//    if (x == 1.0) return x
+//    if (n == 0) return 1.0
+//    return when {
+//        n == Int.MAX_VALUE ->
+//            when {
+//                x < 0 -> -1.0
+//                else -> 0.0
+//            }
+//        n == Int.MIN_VALUE ->
+//            when {
+//                x < 0 -> 1.0
+//                else -> 0.0
+//            }
+//        n < 0 -> 1 / myPow(x, -n)
+//        n % 2 > 0 -> x * myPow(x, n - 1) // n奇数时
+//        else -> myPow(x * x, n / 2)
+//    }
+//}
+
+
+//Runtime: 160 ms, faster than 36.21% of Kotlin online submissions for Pow(x, n).
+//Memory Usage: 33.2 MB, less than 100.00% of Kotlin online submissions for Pow(x, n).
+//fun myPow(x: Double, n: Int): Double {
+//    if (x == 1.0) return x
+//    return when {
+//        n == Int.MAX_VALUE ->
+//            when {
+//                x > 0 -> 0.0
+//                x < 0 -> -1.0
+//                else -> 0.0
+//            }
+//        n == Int.MIN_VALUE ->
+//            when {
+//                x > 0 -> 0.0
+//                x < 0 -> 1.0
+//                else -> 0.0
+//            }
+//        n > 0 -> pow(x, 1.0, n)
+//        n < 0 -> 1 / pow(x, 1.0, Math.abs(n))
+//        else -> 1.0
+//    }
+//}
+//
+//tailrec fun pow(x: Double, y: Double, n: Int): Double {
+//    if (n == 0) return y
+//    val z = y * x
+//    return pow(x, z, n - 1)
+//}
 
 //136
 //fun myPow(x: Double, n: Int): Double {
