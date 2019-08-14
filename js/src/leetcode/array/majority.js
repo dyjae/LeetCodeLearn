@@ -4,13 +4,13 @@
  */
 
 
-const majorityElement = (array) => {
+const majorityElement = (nums) => {
 
     // 算法题，尽量减少使用api
-    // return array.sort()[parseInt(array.length / 2)]
+    // return nums.sort()[parseInt(nums.length / 2)]
 
     // let counter = 0
-    // for (let i = 0; i < array.length; i++) {
+    // for (let i = 0; i < nums.length; i++) {
         
     // }
 }
