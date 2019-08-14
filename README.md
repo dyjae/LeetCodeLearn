@@ -116,6 +116,12 @@ learn leetcode online judge
     https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii
     /recursive/BestTimeToBuyAndSellStockii.kt
 ```
+# 22. Generate Parentheses
+```
+    https://leetcode.com/problems/generate-parentheses/
+    /recursive/GenerateParentheses.kt
+```
+
 # dfs深度遍历  bfs广度遍历
 102. Binary Tree Level Order Traversal
 ```
