@@ -122,3 +122,13 @@ learn leetcode online judge
     https://leetcode.com/problems/binary-tree-level-order-traversal/
     /dfsbfs/BinaryTreeLevelOrderTraversal.kt
 ```
+# 104. Maximum Depth of Binary Tree
+```
+    https://leetcode.com/problems/maximum-depth-of-binary-tree/
+    /dfsbfs/MaximumDepthOfBinaryTree.kt
+```
+# 111. Minimum Depth of Binary Tree
+```
+    https://leetcode.com/problems/minimum-depth-of-binary-tree
+    /dfsbfs/MinimumDepthOfBinaryTree.kt
+```
