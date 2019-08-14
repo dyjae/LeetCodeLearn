@@ -1,3 +1,7 @@
+/**
+ * 以下所有函数是基于数组类型二叉树来定义的
+ */
+
 // 获取父节点index（根节点为自身）
 const getParentIndex = index => index == 0 ? 0 : (index - (Math.floor(index / 2) + 1))
 

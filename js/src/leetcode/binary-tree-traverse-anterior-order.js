@@ -20,5 +20,7 @@ const traverseAnteriorOrder = (tree, index = 0) => {
         traverseAnteriorOrder(tree, right)
     }
 }
+// traverseAnteriorOrder(tree)
 
-traverseAnteriorOrder(tree)
+var root = binaryTreeInit(tree) // 二叉树
+root.traverseAnteriorOrder()

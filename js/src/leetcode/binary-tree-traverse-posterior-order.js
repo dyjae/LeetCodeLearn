@@ -7,3 +7,6 @@
 
 var tree = [3, 5, 1, 6, 2, 0, 8, undefined, undefined, 7, 4]
 // 6 7 4 2 5 0 8 1 3
+
+var root = binaryTreeInit(tree) // 二叉树
+root.traversePosteriorOrder()
