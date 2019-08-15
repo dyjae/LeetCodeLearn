@@ -4,6 +4,7 @@
  */
 
 
+// TODO
 const majorityElement = (nums) => {
 
     // 算法题，尽量减少使用api

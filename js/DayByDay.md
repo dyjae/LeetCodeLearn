@@ -18,9 +18,9 @@
 > https://leetcode.com/problems/binary-tree-level-order-traversal/
 
 # 2019-8-14
-> https://leetcode.com/problems/maximum-depth-of-binary-tree/
-> https://leetcode.com/problems/minimum-depth-of-binary-tree/
-> https://leetcode.com/problems/generate-parentheses/
+> https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/
+> https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/
+> https://leetcode-cn.com/problems/generate-parentheses/
 
 # 2019-8-15
 > https://leetcode.com/problems/n-queens/
