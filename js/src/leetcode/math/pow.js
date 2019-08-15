@@ -18,6 +18,9 @@
  * 
  */
 
+/**
+ * pow(2, -2147483648) -> 超出时间限制 -> 不方案可行！
+ */
 const pow = (x, n) => {
     /*
         // es6
@@ -33,7 +36,7 @@ const pow = (x, n) => {
         result = result * x
         n--
     }
-    return parseFloat(result).toFixed(6)
+    return result
 }
 console.log(`pow(2, 10) -> ${pow(2, 10)}`)
 console.log(`pow(2.1, 3) -> ${pow(2.1, 3)}`)

@@ -27,6 +27,14 @@ class TreeNode {
         this.right && this.right.traversePosteriorOrder()
         console.log(this.val)
     }
+
+    // 层次遍历
+    traverseLevelOrder(result = [], level = 0) {
+        result[level] ? result[level].push(this.val) : result.push([this.val])
+        this.left && this.left.traverseLevelOrder(result, level + 1)
+        this.right && this.right.traverseLevelOrder(result, level + 1)
+        return result
+    }
 }
 
 /**
