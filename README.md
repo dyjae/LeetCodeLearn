@@ -144,3 +144,8 @@ learn leetcode online judge
     https://leetcode.com/problems/n-queens/
     /dfsbfs/NQueens.kt
 ```
+# 52. N-Queens II
+```
+    https://leetcode.com/problems/n-queens-ii/
+    /dfsbfs/NQueensII.kt
+```
