@@ -138,3 +138,9 @@ learn leetcode online judge
     https://leetcode.com/problems/minimum-depth-of-binary-tree
     /dfsbfs/MinimumDepthOfBinaryTree.kt
 ```
+
+# 51. N-Queens
+```
+    https://leetcode.com/problems/n-queens/
+    /dfsbfs/NQueens.kt
+```
