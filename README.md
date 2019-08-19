@@ -149,3 +149,8 @@ learn leetcode online judge
     https://leetcode.com/problems/n-queens-ii/
     /dfsbfs/NQueensII.kt
 ```
+# 36. Valid Sudoku
+```
+    https://leetcode.com/problems/valid-sudoku/
+    /dfsbfs/ValidSudoku.kt
+```
