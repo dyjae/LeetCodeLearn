@@ -123,7 +123,7 @@ learn leetcode online judge
 ```
 
 # dfs深度遍历  bfs广度遍历
-102. Binary Tree Level Order Traversal
+# 102. Binary Tree Level Order Traversal
 ```
     https://leetcode.com/problems/binary-tree-level-order-traversal/
     /dfsbfs/BinaryTreeLevelOrderTraversal.kt
@@ -153,4 +153,9 @@ learn leetcode online judge
 ```
     https://leetcode.com/problems/valid-sudoku/
     /dfsbfs/ValidSudoku.kt
+```
+# 37. Sudoku Solver
+```
+    https://leetcode.com/problems/sudoku-solver/
+    /dfsbfs/SudokuSolver.kt
 ```
