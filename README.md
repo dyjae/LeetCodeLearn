@@ -159,3 +159,8 @@ learn leetcode online judge
     https://leetcode.com/problems/sudoku-solver/
     /dfsbfs/SudokuSolver.kt
 ```
+# 69. Sqrt(x)
+```
+    https://leetcode.com/problems/sqrtx/
+    /binarysearch/Sqrt(x).kt
+```
