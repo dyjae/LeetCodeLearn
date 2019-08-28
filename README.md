@@ -174,4 +174,9 @@ learn leetcode online judge
     https://leetcode.com/problems/word-search-ii/
     /trie/WordSearchII.kt
 ```
+# 191. Number of 1 Bits
+```
+    https://leetcode.com/problems/number-of-1-bits/
+    /bit/NumberOf1Bits.kt
+```
     
