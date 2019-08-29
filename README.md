@@ -186,3 +186,8 @@ learn leetcode online judge
    https://leetcode.com/problems/power-of-two/
     /bit/PowerOfTwo.kt
 ```
+# 338. Counting Bits
+```
+    https://leetcode.com/problems/counting-bits/
+    /bit/CountingBits.kt
+```
