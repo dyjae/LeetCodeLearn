@@ -122,7 +122,7 @@ learn leetcode online judge
     /recursive/GenerateParentheses.kt
 ```
 
-# dfs深度遍历  bfs广度遍历
+## dfs深度遍历  bfs广度遍历
 # 102. Binary Tree Level Order Traversal
 ```
     https://leetcode.com/problems/binary-tree-level-order-traversal/
@@ -138,7 +138,6 @@ learn leetcode online judge
     https://leetcode.com/problems/minimum-depth-of-binary-tree
     /dfsbfs/MinimumDepthOfBinaryTree.kt
 ```
-
 # 51. N-Queens
 ```
     https://leetcode.com/problems/n-queens/
@@ -158,11 +157,13 @@ learn leetcode online judge
 ```
     https://leetcode.com/problems/sudoku-solver/
     /dfsbfs/SudokuSolver.kt
+# 二叉搜索
 ```
 # 69. Sqrt(x)
 ```
     https://leetcode.com/problems/sqrtx/
     /binarysearch/Sqrt(x).kt
+## 字典树
 ```
 # 208. Implement Trie (Prefix Tree)
 ```
@@ -173,10 +174,15 @@ learn leetcode online judge
 ```
     https://leetcode.com/problems/word-search-ii/
     /trie/WordSearchII.kt
+## 位运算
 ```
 # 191. Number of 1 Bits
 ```
     https://leetcode.com/problems/number-of-1-bits/
     /bit/NumberOf1Bits.kt
 ```
-    
+# 231. Power of Two
+```
+   https://leetcode.com/problems/power-of-two/
+    /bit/PowerOfTwo.kt
+```
