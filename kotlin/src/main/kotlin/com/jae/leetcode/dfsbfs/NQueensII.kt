@@ -47,37 +47,59 @@ fun main(args: Array<String>) {
 //    if (!exit) return
 //}
 
+//fun totalNQueens(n: Int): Int {
+//    var result = 0
+//    loopFind(IntArray(n), 0) {
+//        result++
+//    }
+//    return result
+//}
+//
+//private fun loopFind(queenPosArr: IntArray, queueColumn: Int,
+//                     callback: () -> Unit) {
+//    // 尝试在当前行的每一列放置，first 为第几列（x），second 为第几行（y）
+//    for (row in queenPosArr.indices) {
+//        var isRowRight = true
+//        for (i in 0 until queueColumn) { // 对比之前的位置是否合法
+//            if (isPosConflict(queenPosArr[i], i, row, queueColumn)) {
+//                isRowRight = false
+//                break
+//            }
+//        }
+//        if (isRowRight) {
+//            queenPosArr[queueColumn] = row
+//            if (queueColumn >= queenPosArr.size - 1) { // 已经配置全了
+//                callback()
+//            } else {
+//                loopFind(queenPosArr, queueColumn + 1, callback)
+//            }
+//        }
+//    }
+//}
+//
+//private fun isPosConflict(x1: Int, y1: Int, x2: Int, y2: Int) =
+//    x1 == x2 || y1 == y2 || abs((x1 - x2).toDouble() / (y1 - y2).toDouble()) == 1.0
+
+//120 ms
+var count: Int = 0
+
 fun totalNQueens(n: Int): Int {
-    var result = 0
-    loopFind(IntArray(n), 0) {
-        result++
-    }
-    return result
+    count = 0
+    getList(0, 0, 0, 0, n)
+    return count
 }
 
-private fun loopFind(queenPosArr: IntArray, queueColumn: Int,
-                     callback: () -> Unit) {
-    // 尝试在当前行的每一列放置，first 为第几列（x），second 为第几行（y）
-    for (row in 0 until queenPosArr.size) {
-        var isRowRight = true
-        for (i in 0 until queueColumn) { // 对比之前的位置是否合法
-            if (isPosConflict(queenPosArr[i], i, row, queueColumn)) {
-                isRowRight = false
-                break
-            }
-        }
-        if (isRowRight) {
-            queenPosArr[queueColumn] = row
-            if (queueColumn >= queenPosArr.size - 1) { // 已经配置全了
-                callback()
-            } else {
-                loopFind(queenPosArr, queueColumn + 1, callback)
-            }
-        }
+private fun getList(left: Int, right: Int, col: Int, row: Int, n: Int) {
+    if (row == n) {
+        count++
+        return
+    }
+    val mask1 = (1 shl n) - 1   //用来去掉超过n的高位
+    val mask = left or right or col and mask1  //取出没有填上的位置
+    if (mask == mask1) return  //填满了
+    for (i in 0 until n) {
+        val newMask = 1 shl n - i - 1 //取一个数
+        if (mask and newMask > 0) continue//填满了
+        getList(left or newMask shl 1, right or newMask shr 1, col or newMask, row + 1, n)
     }
 }
-
-private fun isPosConflict(x1: Int, y1: Int, x2: Int, y2: Int) =
-    x1 == x2 || y1 == y2 || Math.abs((x1 - x2).toDouble() / (y1 - y2).toDouble()) == 1.0
-
-
