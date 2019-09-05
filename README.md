@@ -191,3 +191,15 @@ learn leetcode online judge
     https://leetcode.com/problems/counting-bits/
     /bit/CountingBits.kt
 ```
+## 动态规划
+# 70. Climbing Stairs
+```
+    https://leetcode.com/problems/climbing-stairs
+    /dynamic/ClimbingStairs.kt
+```
+
+# 120. Triangle
+```
+    https://leetcode.com/problems/triangle
+    /dynamic/Triangle.kt
+```
