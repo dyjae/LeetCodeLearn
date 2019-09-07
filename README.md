@@ -203,3 +203,9 @@ learn leetcode online judge
     https://leetcode.com/problems/triangle
     /dynamic/Triangle.kt
 ```
+
+# 152. Maximum Product Subarray
+```
+    https://leetcode.com/problems/maximum-product-subarray   
+    /dynamic/MaximumProductSubarray.kt
+```
