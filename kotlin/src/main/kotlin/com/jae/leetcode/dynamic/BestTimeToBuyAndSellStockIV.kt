@@ -10,7 +10,34 @@ object BestTimeToBuyAndSellStockIV {
 
     @JvmStatic
     fun main(args: Array<String>) {
-        println(maxProfit(2, intArrayOf(3, 2, 6, 5, 0, 3)))
+        println(maxProfit(2, intArrayOf(2,4,1)))
+    }
+
+
+    fun maxProfit(k: Int, prices: IntArray): Int {
+
+        if (k > prices.size / 2) {
+            var max = 0
+            for (i in 1 until prices.size) {
+                if (prices[i] > prices[i - 1])
+                    max += prices[i] - prices[i - 1]
+            }
+            return max
+        }
+
+        val dp = Array(prices.size) { Array(k + 1) { Array(2) { 0 } } }
+        for (i in 0 until prices.size) {
+            for (j in k downTo 1) {
+                if (i == 0) {
+                    dp[i][j][0] = 0
+                    dp[i][j][1] = -prices[i]
+                    continue
+                }
+                dp[i][j][0] = maxOf(dp[i - 1][j][0], dp[i - 1][j][1] + prices[i])
+                dp[i][j][1] = maxOf(dp[i - 1][j][1], dp[i - 1][j - 1][0] - prices[i])
+            }
+        }
+        return dp[prices.size - 1][k][0]
     }
 
 
@@ -38,37 +65,37 @@ object BestTimeToBuyAndSellStockIV {
 //        return dp[k][length - 1]
 //    }
 
-    //160 ms
-    fun maxProfit(k: Int, prices: IntArray): Int {
-        if (k == 0) {
-            return 0
-        }
-        if (k > prices.size) {
-            return maxProfitAny(prices)
-        }
-        val buy = IntArray(k) { Int.MIN_VALUE }
-        val sell = IntArray(k) { 0 }
-        prices.forEach { p ->
-            for (i in 0 until k) {
-                buy[i] = if (i == 0) {
-                    maxOf(buy[i], -p)
-                } else {
-                    maxOf(buy[i], sell[i - 1] - p)
-                }
-                sell[i] = maxOf(sell[i], buy[i] + p)
-            }
-        }
-        return sell[k - 1]
-    }
-
-    private fun maxProfitAny(prices: IntArray): Int {
-        var max = 0
-        for (i in 1 until prices.size) {
-            if (prices[i] > prices[i - 1])
-                max += prices[i] - prices[i - 1]
-        }
-        return max
-    }
+//    //160 ms
+//    fun maxProfit(k: Int, prices: IntArray): Int {
+//        if (k == 0) {
+//            return 0
+//        }
+//        if (k > prices.size) {
+//            return maxProfitAny(prices)
+//        }
+//        val buy = IntArray(k) { Int.MIN_VALUE }
+//        val sell = IntArray(k) { 0 }
+//        prices.forEach { p ->
+//            for (i in 0 until k) {
+//                buy[i] = if (i == 0) {
+//                    maxOf(buy[i], -p)
+//                } else {
+//                    maxOf(buy[i], sell[i - 1] - p)
+//                }
+//                sell[i] = maxOf(sell[i], buy[i] + p)
+//            }
+//        }
+//        return sell[k - 1]
+//    }
+//
+//    private fun maxProfitAny(prices: IntArray): Int {
+//        var max = 0
+//        for (i in 1 until prices.size) {
+//            if (prices[i] > prices[i - 1])
+//                max += prices[i] - prices[i - 1]
+//        }
+//        return max
+//    }
 
 //    fun maxProfit(k: Int, prices: IntArray): Int {
 //        if (prices.isEmpty()) return 0
