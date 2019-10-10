@@ -242,3 +242,8 @@ learn leetcode online judge
     https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/
     /dynamic/BestTimeToBuyAndSellStockwithTransactionFee.kt
 ```
+# 300. Longest Increasing Subsequence
+```
+    https://leetcode.com/problems/longest-increasing-subsequence/
+    /dynamic/LongestIncreasingSubsequence.kt
+```
