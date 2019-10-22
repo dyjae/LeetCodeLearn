@@ -252,3 +252,8 @@ learn leetcode online judge
     https://leetcode.com/problems/coin-change/
     /dynamic/CoinChange
 ```
+# 72. Edit Distance
+```
+    https://leetcode.com/problems/edit-distance/
+    /dynamic/EditDistance
+```
