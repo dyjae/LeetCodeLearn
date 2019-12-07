@@ -257,3 +257,12 @@ learn leetcode online judge
     https://leetcode.com/problems/edit-distance/
     /dynamic/EditDistance
 ```
+
+## 并查集
+
+# 200. Number of Islands
+```
+    https://leetcode.com/problems/number-of-islands/
+    /unionfind/NumberOfIslands.kt
+```
+
