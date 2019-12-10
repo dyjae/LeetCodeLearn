@@ -265,4 +265,8 @@ learn leetcode online judge
     https://leetcode.com/problems/number-of-islands/
     /unionfind/NumberOfIslands.kt
 ```
-
+# 547. Friend Circles
+```   
+    https://leetcode.com/problems/friend-circles/
+    /unionfind/FriendCircles.kt
+```
