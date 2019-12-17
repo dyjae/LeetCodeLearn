@@ -270,3 +270,10 @@ learn leetcode online judge
     https://leetcode.com/problems/friend-circles/
     /unionfind/FriendCircles.kt
 ```
+
+## 缓存
+# 146. LRU Cache   
+```
+    https://leetcode.com/problems/lru-cache/
+    /lrucache/LRUCache.kt
+```
