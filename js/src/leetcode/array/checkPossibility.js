@@ -31,8 +31,8 @@
  * @param {number[]} nums
  * @return {boolean}
  */
-let checkPossibility = function (nums) {
-    if (nums.length < 3) return true;
+let checkPossibility = function(nums) {
+    if (nums.length < 3) return true; // 只有两位数时，必然可以变非递减数列
     let count = 0;
     for (let i = 0; i < nums.length - 1; i++) {
         if (nums[i + 1] < nums[i]) {
@@ -50,7 +50,3 @@ nums = [4, 2, 1]
 console.log(checkPossibility(nums))
 nums = [3, 4, 2, 3]
 console.log(checkPossibility(nums))
-
-
-
-
