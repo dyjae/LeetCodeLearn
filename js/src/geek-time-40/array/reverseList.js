@@ -29,7 +29,7 @@ var reverseList = function (head, prev) {
         head.next = prev
         prev = head
         head = tmp
-        reverseList(head, prev)
+        return reverseList(head, prev)
     } else {
         return prev
     }
