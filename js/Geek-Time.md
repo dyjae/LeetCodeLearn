@@ -45,7 +45,7 @@
 ### 数组 & 链表
 ##### 206. 反转链表 /geek-time-40/array/reverseList.js
 > https://leetcode-cn.com/problems/reverse-linked-list/
-##### 24. 两两交换链表中的节点
+##### 24. 两两交换链表中的节点 /geek-time-40/array/swapPairs.js
 > https://leetcode-cn.com/problems/swap-nodes-in-pairs/
 ##### 141. 环形链表
 > https://leetcode-cn.com/problems/linked-list-cycle/

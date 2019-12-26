@@ -23,6 +23,7 @@
  * @param {ListNode} head
  * @return {ListNode}
  */
+// 递归法   O(n)
 var reverseList = function (head, prev) {
     if (head) {
         var tmp = head.next
