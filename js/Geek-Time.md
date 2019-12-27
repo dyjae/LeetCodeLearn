@@ -53,3 +53,7 @@
 > https://leetcode-cn.com/problems/linked-list-cycle-ii/
 ##### 25. K 个一组翻转链表 /geek-time-40/array/reverseKGroup.js
 > https://leetcode-cn.com/problems/reverse-nodes-in-k-group/
+
+### 堆栈 & 队列
+##### 20. 有效的括号 /geek-time-40/stack-queue/isValid.js
+> https://leetcode-cn.com/problems/valid-parentheses/
