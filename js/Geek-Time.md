@@ -51,5 +51,5 @@
 > https://leetcode-cn.com/problems/linked-list-cycle/
 ##### 142. 环形链表 II /geek-time-40/array/detectCycle.js
 > https://leetcode-cn.com/problems/linked-list-cycle-ii/
-##### 25. K 个一组翻转链表
+##### 25. K 个一组翻转链表 /geek-time-40/array/reverseKGroup.js
 > https://leetcode-cn.com/problems/reverse-nodes-in-k-group/
