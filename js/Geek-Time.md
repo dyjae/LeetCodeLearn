@@ -61,3 +61,21 @@
 > https://leetcode-cn.com/problems/implement-queue-using-stacks/
 ##### 225. 用队列实现栈 /geek-time-40/stack-queue/MyStack.js
 > https://leetcode-cn.com/problems/implement-stack-using-queues/
+
+### 优先队列 & 堆（小顶堆、大顶堆...）
+##### 703. 数据流中的第K大元素 /geek-time-40/heap/KthLargest.js
+> https://leetcode-cn.com/problems/kth-largest-element-in-a-stream/
+##### 239. 滑动窗口最大值 /geek-time-40/heap/maxSlidingWindow.js
+> https://leetcode-cn.com/problems/sliding-window-maximum/
+
+### 映射（Map）& 集合（Set）
+##### 242. 有效的字母异位词
+> https://leetcode-cn.com/problems/valid-anagram/
+##### 1. 两数之和
+> https://leetcode-cn.com/problems/two-sum/
+##### 15. 三数之和
+> https://leetcode-cn.com/problems/3sum/
+##### 18. 四数之和
+> https://leetcode-cn.com/problems/4sum/
+
+### 树（Tree）& 图（Graph）
