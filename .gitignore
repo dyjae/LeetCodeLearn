@@ -2,3 +2,5 @@ kotlin/src/test
 *.iml
 .idea
 ts/node_modules/**/*
+python/venv
+python/hot100/__pycache__
