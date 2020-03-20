@@ -1,5 +1,6 @@
 #leetcode题目练习
     python版，Hot100
+    https://leetcode.com/problemset/top-100-liked-questions/
 ## 15.3Sum (二分搜索)
     https://leetcode.com/problems/3sum/
     hot100/15.3Sum.py
@@ -12,3 +13,8 @@
 ## 32. Longest Valid Parentheses (stack,dp)
     https://leetcode.com/problems/longest-valid-parentheses/
     hot100/LongestValidParentheses.py
+## 4. Median of Two Sorted Arrays
+    https://leetcode.com/problems/median-of-two-sorted-arrays/
+    hot100/MedianOfTwoSortedArrays.py
+
+    
