@@ -13,8 +13,11 @@
 ## 32. Longest Valid Parentheses (stack,dp)
     https://leetcode.com/problems/longest-valid-parentheses/
     hot100/LongestValidParentheses.py
-## 4. Median of Two Sorted Arrays
+## 4. Median of Two Sorted Arrays (二分搜索)
     https://leetcode.com/problems/median-of-two-sorted-arrays/
     hot100/MedianOfTwoSortedArrays.py
 
+##  5. Longest Palindromic Substring(DP,Manacher's Algorithm)
+    https://leetcode.com/problems/longest-palindromic-substring/
+    hot100/LongestPalindromicSubstring.py
     
