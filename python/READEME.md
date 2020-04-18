@@ -1,4 +1,4 @@
-#leetcode题目练习
+# leetcode题目练习
     python版，Hot100
     https://leetcode.com/problemset/top-100-liked-questions/
 ## 15.3Sum (二分搜索)
@@ -12,12 +12,16 @@
     hot100/98.ValidateBinarySearchTree.py
 ## 32. Longest Valid Parentheses (stack,dp)
     https://leetcode.com/problems/longest-valid-parentheses/
-    hot100/LongestValidParentheses.py
+    hot100/32.LongestValidParentheses.py
 ## 4. Median of Two Sorted Arrays (二分搜索)
     https://leetcode.com/problems/median-of-two-sorted-arrays/
-    hot100/MedianOfTwoSortedArrays.py
+    hot100/4.MedianOfTwoSortedArrays.py
 
 ##  5. Longest Palindromic Substring(DP,Manacher's Algorithm)
     https://leetcode.com/problems/longest-palindromic-substring/
-    hot100/LongestPalindromicSubstring.py
+    hot100/5.LongestPalindromicSubstring.py
+    
+## 3. Longest Substring Without Repeating Characters(滑窗)
+    https://leetcode.com/problems/longest-substring-without-repeating-characters/
+    hot100/3.LongestSubstringWithoutRepeatingCharacters.py
     
