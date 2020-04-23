@@ -25,3 +25,7 @@
     https://leetcode.com/problems/longest-substring-without-repeating-characters/
     hot100/3.LongestSubstringWithoutRepeatingCharacters.py
     
+##  45. Jump Game II(贪心算法)
+    https://leetcode.com/problems/jump-game-ii/
+    hot100/45.JumpGameII
+    
