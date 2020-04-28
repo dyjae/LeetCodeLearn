@@ -28,4 +28,13 @@
 ##  45. Jump Game II(贪心算法)
     https://leetcode.com/problems/jump-game-ii/
     hot100/45.JumpGameII
+
+##  146. LRU Cache(OrderDict)
+    https://leetcode.com/problems/lru-cache/
+    hot100/146.LRUCache
+  
+## 581. Shortest Unsorted Continuous Subarray
+    https://leetcode.com/problems/shortest-unsorted-continuous-subarray/
+
+    
     
