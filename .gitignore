@@ -5,3 +5,4 @@ ts/node_modules/**/*
 python/venv
 python/hot100/__pycache__
 test.py
+kotlin/target
