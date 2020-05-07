@@ -37,5 +37,7 @@
     https://leetcode.com/problems/shortest-unsorted-continuous-subarray/
     hot100/581.ShortestUnsortedContinuousSubarray.py
 
+## 152. Maximum Product Subarray
+    https://leetcode.com/problems/maximum-product-subarray/
     
     

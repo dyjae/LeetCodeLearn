@@ -3,7 +3,6 @@
 
 __author__ = 'Jae'
 
-import sys
 from typing import List
 
 
