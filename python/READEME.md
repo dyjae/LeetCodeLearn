@@ -39,5 +39,10 @@
 
 ## 152. Maximum Product Subarray
     https://leetcode.com/problems/maximum-product-subarray/
+    hot100/152.MaximumProductSubarray
+    
+## 	41. First Missing Positive   
+    https://leetcode.com/problems/first-missing-positive/submissions/
+    hot100/41.FirstMissingPositive.py
     
     
