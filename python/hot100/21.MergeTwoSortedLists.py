@@ -4,7 +4,7 @@
 __author__ = 'Jae'
 
 # https://leetcode.com/problems/merge-two-sorted-lists/
-from hot100.LIstNode import ListNode
+from hot100.ListNode import ListNode
 
 
 class MergeTwoSortedLists:
@@ -17,7 +17,7 @@ class MergeTwoSortedLists:
             return l2
         if l2 is None:
             return l1
-        if l1.value <= l2.value:
+        if l1.val <= l2.val:
             l1.next = self.mergeTwoLists(l1.next, l2)
             return l1
         else:
@@ -40,23 +40,23 @@ class MergeTwoSortedLists:
             elif l2Head is None and l1Head is not None:
                 self.__parse_list(l1Head)
                 break
-            l1Value = l1Head.value
-            l2Value = l2Head.value
-            if l1Value >= l2Value:
-                self.__parse_list_value(l2Value)
+            l1val = l1Head.val
+            l2val = l2Head.val
+            if l1val >= l2val:
+                self.__parse_list_val(l2val)
                 l2Head = l2Head.next
             else:
-                self.__parse_list_value(l1Value)
+                self.__parse_list_val(l1val)
                 l1Head = l1Head.next
         return self.headNode.next
 
-    def __parse_list_value(self, value):
+    def __parse_list_val(self, val):
         if self.tmpNode is None:
-            node = ListNode(value)
+            node = ListNode(val)
             self.headNode.next = node
             self.tmpNode = node
         else:
-            self.tmpNode.next = ListNode(value)
+            self.tmpNode.next = ListNode(val)
             self.tmpNode = self.tmpNode.next
 
     def __parse_list(self, in_list):

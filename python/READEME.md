@@ -63,3 +63,8 @@
     
 ## 21. Merge Two Sorted Lists
     https://leetcode.com/problems/merge-two-sorted-lists/
+    hot100/21.MergeTwoSortedLists.py
+    
+## 23. Merge k Sorted Lists
+    https://leetcode.com/problems/merge-k-sorted-lists/
+    hot100/23.MergeKSortedLists.py

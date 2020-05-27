@@ -5,7 +5,7 @@ __author__ = 'Jae'
 
 # https://leetcode.com/problems/add-two-numbers/
 # 用两个链表存储了两个数   求两数之和的链表
-from hot100.LIstNode import ListNode
+from hot100.ListNode import ListNode
 
 
 class AddTwoNumbers:

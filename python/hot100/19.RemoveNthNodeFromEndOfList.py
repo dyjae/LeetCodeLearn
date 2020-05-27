@@ -3,7 +3,7 @@
 
 __author__ = 'Jae'
 
-from hot100.LIstNode import ListNode
+from hot100.ListNode import ListNode
 
 
 class RemoveNthNodeFromEndOfList:
