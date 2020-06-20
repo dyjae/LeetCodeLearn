@@ -68,3 +68,9 @@
 ## 23. Merge k Sorted Lists
     https://leetcode.com/problems/merge-k-sorted-lists/
     hot100/23.MergeKSortedLists.py
+    
+## 33. Search in Rotated Sorted Array(二分查找)
+    https://leetcode.com/problems/search-in-rotated-sorted-array/
+    hot100/33.SearchInRotatedSortedArray.py
+
+
