@@ -72,5 +72,7 @@
 ## 33. Search in Rotated Sorted Array(二分查找)
     https://leetcode.com/problems/search-in-rotated-sorted-array/
     hot100/33.SearchInRotatedSortedArray.py
-
-
+    
+## 34. Find First and Last Position of Element in Sorted Array(二分查找)
+    https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
+    hot100/34.FindFirstAndLastPositionOfElementInSortedArray
