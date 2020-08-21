@@ -76,3 +76,7 @@
 ## 34. Find First and Last Position of Element in Sorted Array(二分查找)
     https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
     hot100/34.FindFirstAndLastPositionOfElementInSortedArray
+    
+## 39. Combination Sum(动态规划)
+    https://leetcode.com/problems/combination-sum/
+    hot100/39.CombinationSum
