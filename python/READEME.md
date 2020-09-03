@@ -80,3 +80,7 @@
 ## 39. Combination Sum(动态规划)
     https://leetcode.com/problems/combination-sum/
     hot100/39.CombinationSum
+    
+## 42. Trapping Rain Water(动态规划，栈)
+    https://leetcode.com/problems/trapping-rain-water/
+    hot100/42.TrappingRainWater.py
