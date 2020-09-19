@@ -84,3 +84,7 @@
 ## 42. Trapping Rain Water(动态规划，栈)
     https://leetcode.com/problems/trapping-rain-water/
     hot100/42.TrappingRainWater.py
+    
+## 46.Permutations.py
+    https://leetcode.com/problems/permutations/
+    hot100/46.Permutations.py
