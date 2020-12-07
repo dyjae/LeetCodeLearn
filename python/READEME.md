@@ -104,3 +104,8 @@
 ## 55. Jump Game
     https://leetcode.com/problems/jump-game/
     hot100/55.JumpGame
+    
+## 56. Merge Intervals
+    https://leetcode.com/problems/merge-intervals/
+    hot100/56.MergeIntervals
+    
