@@ -108,4 +108,8 @@
 ## 56. Merge Intervals
     https://leetcode.com/problems/merge-intervals/
     hot100/56.MergeIntervals
+
+## 62. Unique Paths
+    https://leetcode.com/problems/unique-paths/
+    hot100/62.UniquePaths
     
