@@ -112,4 +112,8 @@
 ## 62. Unique Paths
     https://leetcode.com/problems/unique-paths/
     hot100/62.UniquePaths
+
+## 64. Minimum Path Sum
+    https://leetcode.com/problems/minimum-path-sum/
+    hot100/64.MinimumPathSum
     

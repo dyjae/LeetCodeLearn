@@ -18,7 +18,7 @@ class UniquePaths:
         k = m - 1
         return factorial(N) // (factorial(N - k) * factorial(k))
 
-    # Runtime: 24 ms, faster than 95.00% of Python3 online submissions for Unique Paths.
+    # Runtime: 24 ms, faster than 95.00% of Python3 on line submissions for Unique Paths.
     # Memory Usage: 14.1 MB, less than 51.27% of Python3 online submissions for Unique Paths.
     # 公式求解
     # 从左上角，到右下角，总会是 3 个 R，2 个 D，只是出现的顺序不一样。所以求解法，本质上是求了组合数，
