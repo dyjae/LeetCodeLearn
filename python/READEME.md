@@ -116,4 +116,8 @@
 ## 64. Minimum Path Sum
     https://leetcode.com/problems/minimum-path-sum/
     hot100/64.MinimumPathSum
+
+## 75. Sort Colors
+    https://leetcode.com/problems/sort-colors/
+    hot100/75.SortColors
     
