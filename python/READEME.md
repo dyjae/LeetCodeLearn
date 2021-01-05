@@ -120,4 +120,8 @@
 ## 75. Sort Colors
     https://leetcode.com/problems/sort-colors/
     hot100/75.SortColors
+
+## 76. Minimum Window Substring
+    https://leetcode.com/problems/minimum-window-substring/
+    hot100/76.MinimumWindowSubstring
     
