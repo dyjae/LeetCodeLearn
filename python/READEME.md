@@ -124,4 +124,7 @@
 ## 76. Minimum Window Substring
     https://leetcode.com/problems/minimum-window-substring/
     hot100/76.MinimumWindowSubstring
-    
+
+## 78. Subsets
+    https://leetcode.com/problems/subsets/
+    hot100/78.Subsets
