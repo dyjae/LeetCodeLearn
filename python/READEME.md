@@ -128,3 +128,7 @@
 ## 78. Subsets
     https://leetcode.com/problems/subsets/
     hot100/78.Subsets
+
+## 79. Word Search
+    https://leetcode.com/problems/word-search/
+    hot100/79.WordSearch

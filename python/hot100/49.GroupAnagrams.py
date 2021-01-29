@@ -20,7 +20,7 @@ class GroupAnagrams:
     # 空间复杂度：O（NK），用来存储结果。
     def groupAnagrams3(self, strs: List[str]) -> List[List[str]]:
         rs = collections.defaultdict(list)
-        # ard() 求ascall码
+        # ord() 求ascall码
         orda = ord('a')
         primes = (2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97, 101, 103)
         for vstr in strs:
