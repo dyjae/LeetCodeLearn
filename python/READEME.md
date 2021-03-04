@@ -132,3 +132,7 @@
 ## 79. Word Search
     https://leetcode.com/problems/word-search/
     hot100/79.WordSearch
+
+## 84. Largest Rectangle in Histogram
+    https://leetcode.com/problems/largest-rectangle-in-histogram/
+    hot100/84.LargestRectangleInHistogram
