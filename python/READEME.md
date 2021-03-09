@@ -136,3 +136,7 @@
 ## 84. Largest Rectangle in Histogram
     https://leetcode.com/problems/largest-rectangle-in-histogram/
     hot100/84.LargestRectangleInHistogram
+
+## 85. Maximal Rectangle
+    https://leetcode.com/problems/maximal-rectangle/
+    hot100/85.MaximalRectangle
