@@ -140,3 +140,7 @@
 ## 85. Maximal Rectangle
     https://leetcode.com/problems/maximal-rectangle/
     hot100/85.MaximalRectangle
+
+## 94. Binary Tree Inorder Traversal
+    https://leetcode.com/problems/binary-tree-inorder-traversal/
+    hot100/94.BinaryTreeInorderTraversal
