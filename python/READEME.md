@@ -195,5 +195,5 @@
 
 ## 96. Unique Binary Search Trees
 
-    https://leetcode.wang/leetCode-96-Unique-Binary-Search-Trees.html
+    https://leetcode.com/problems/unique-binary-search-trees/
     hot100/96.UniqueBinarySearchTrees
