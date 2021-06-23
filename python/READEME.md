@@ -197,3 +197,8 @@
 
     https://leetcode.com/problems/unique-binary-search-trees/
     hot100/96.UniqueBinarySearchTrees
+
+## 101. Symmetric Tree
+
+    https://leetcode.com/problems/symmetric-tree/
+    hot100/101.SymmetricTree
