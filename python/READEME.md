@@ -202,3 +202,8 @@
 
     https://leetcode.com/problems/symmetric-tree/
     hot100/101.SymmetricTree
+
+## 31. Next Permutation
+
+    https://leetcode.com/problems/next-permutation/
+    hot100/31.NextPermutation
